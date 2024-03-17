@@ -1,3 +1,5 @@
+// MODAL
+
 function signupToggle(){
     var container = document.querySelector('.container');
     container.classList.toggle('active');
@@ -12,4 +14,14 @@ function loginToggle(){
     popup.classList.toggle('active');
 }
 
+// TOGGLER BUTTON
+
+function showSidebar(){
+   var sidebar = document.querySelector('.sidebar')
+   sidebar.style.display = 'block'
+}
+function hideSidebar(){
+   var sidebar = document.querySelector('.sidebar')
+   sidebar.style.display = 'none'
+}
 

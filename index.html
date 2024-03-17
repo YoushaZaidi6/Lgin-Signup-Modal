@@ -20,19 +20,40 @@
         <div>
             <img src="./assets/logo-preview.png" width="180px" alt="logo-preview">
         </div>
+        <div class="nav-pg hideonmobile">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Feedback</li>
+            </ul>
+        </div>
+        <div class="buttons hideonmobile">
+            <button onclick="signupToggle()" class="btn" style="margin-right:5px;">SignUp</button>
+            <button onclick="loginToggle()" class="btn">Login</button>
+        </div>
+        <i onclick="showSidebar()" class="fa-solid fa-bars menu-button"></i>
+    </nav>
+
+        <!------- SIDEBAR ------->
+
+    <nav class="sidebar">
+        <i onclick="hideSidebar()" class="fa-solid fa-xmark cross-button"></i>
         <div class="nav-pg">
             <ul>
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
+                <li>Feedback</li>
             </ul>
         </div>
         <div class="buttons">
             <button onclick="signupToggle()" class="btn" style="margin-right:5px;">SignUp</button>
             <button onclick="loginToggle()" class="btn">Login</button>
         </div>
-    </nav>
+    </nav>    
 </div>
+
 
 
     <!------ SIGNUP FORM ------>
