@@ -64,13 +64,13 @@
             <div class="heading">
                 <h1>SignUp Form</h1>
             </div>
-            <div class="row ">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
+            <div onsubmit="objStore()" class="row ">
+                <input type="text" id="first_name" placeholder="First Name">
+                <input type="text" id="last_name" placeholder="Last Name">
             </div>
-            <form action="#">
-                <input type="email" placeholder="Email Address">
-                <input type="password" placeholder="Password">
+            <form onsubmit="objStore()" action="#">
+                <input type="email" id="input_email" placeholder="Email Address">
+                <input type="password" id="input_password" placeholder="Password">
                 <input type="password" placeholder="Confirm Password">
                 <input type="submit" onclick="signupToggle()" value="SignUp">
             </form>

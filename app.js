@@ -25,3 +25,18 @@ function hideSidebar(){
    sidebar.style.display = 'none'
 }
 
+// LOCALSTORAGE
+
+function objStore(){
+
+    var first_name = document.getElementById("first_name").value
+    var last_name = document.getElementById("last_name").value
+    var input_email = document.getElementById("input_email").value
+    var input_password = document.getElementById("input_password").value
+
+    localStorage.setItem("First-Name", first_name);
+    localStorage.setItem("Last-Name", last_name);
+    localStorage.setItem("Email-Address", input_email);
+    localStorage.setItem("Password", input_password);
+
+}
